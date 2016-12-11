@@ -1,0 +1,321 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #333;
+}
+
+.navbar-default {
+    background: #fff;
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.social-list {
+    list-style: none;
+    padding-top: 8px;
+}
+
+.social-list li {
+    float: left;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.social-list li a {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    color: #555;
+    opacity: 0.4;
+    transition: all 0.3s ease-in;
+    text-align: center;
+    line-height: 16px;
+}
+
+.social-list li a:hover {
+    opacity: 1;
+}
+
+.div8 {
+    height: 8px;
+    clear: both;
+}
+.div12 {
+    height: 12px;
+    clear: both;
+}
+
+.div24 {
+    height: 24px;
+    clear: both;
+}
+
+.div36 {
+    height: 36px;
+    clear: both;
+}
+
+.padding32 {
+    padding: 0 32px;
+}
+
+.big-title {
+    color: #f67a20;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.chuongtrinh-container {
+    width: 100%;
+    min-height: 373px;
+    border: 1px solid #e5e5e5;
+    padding: 0 0 24px 0;
+    transition: all 0.3s ease-in
+}
+
+.chuongtrinh-container:hover {
+    background: #f67a20;
+    border:1px solid #f67a20;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.32);
+}
+
+.chuongtrinh-container:hover > .chuongtrinh-title {
+    color: #fff
+}
+
+.chuongtrinh-img {
+    height: 240px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.chuongtrinh-img img {
+    width: 100%;
+    transition: all 0.2s ease-in;
+}
+
+.chuongtrinh-img img:hover {transform: scale(1.1); }
+
+.chuongtrinh-title {
+    font-size: 16px;
+    color: #555;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.chuongtrinh-btn {
+    text-align: center;
+}
+
+.btn-cefalt {
+    display: inline-block;
+    border: 1px solid #f67a20;
+    color: #f67a20;
+    background: #fff;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
+    min-width: 100px;
+}
+
+
+.btn-cefalt-big {
+    display: inline-block;
+    color: #fff;
+    background: #f67a20;
+    border-radius: 40px;
+    transition: all 0.3s ease-in;
+    min-width: 100px;
+    font-size: 24px;
+    font-weight: 700;
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 13px 0px rgba(255,255,255,1);
+box-shadow: 0px 0px 13px 0px rgba(255,255,255,1);
+    margin-top:36px;
+}
+
+.btn-cefalt-inverse {
+    display: inline-block;
+    border: 1px solid #fff;
+    color: #fff;
+    background:transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease-in
+}
+
+
+
+
+.btn-cefalt:hover {
+    background: #f67a20;
+    color: #fff;
+}
+
+.orange-bg {
+    background: #f67a20;
+    color:#fff;
+}
+
+.grey-bg {
+    background: #f5f6f7;
+    color:#555;
+}
+
+.gioithieu-title {
+    color: #fbe216;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+
+/* Nav tabs */
+.nav-tabs>li>a {
+    color:#e5e5e5;
+    margin-right: 12px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fbe216;
+    cursor: default;
+    font-weight: 700;
+    background-color: transparent;
+    border-bottom:2px solid #fbe216;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: transparent;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color:#f67a20;    
+}
+
+/* Nav pills */
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #f67a20;
+    border: 1px solid #f67a20;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.nav-pills > li  > a:hover {
+    color: #f67a20;
+    border: 1px solid #f67a20;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.nav-pills > li > a {
+    color:#999;    
+    margin-right: 12px;
+}
+
+
+.hocvien-container {
+    width: 100%;
+    min-height: 373px;
+    border: 1px solid #e5e5e5;
+    padding: 0 0 24px 0;
+    transition: all 0.3s ease-in;
+    border-top:3px solid #f67a20;
+}
+
+.hocvien-container:hover {            
+    /*-webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.32);*/
+}
+.hocvien-img {
+    height: 120px;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    margin-top:32px;
+}
+
+.hocvien-img img {
+    width: 115px;
+    transition: all 0.2s ease-in;
+    
+}
+
+
+.hocvien-img img:hover {transform: scale(1.1); }
+.hocvien-title {font-size:16px; color:#f67a20; font-weight: 600;}
+.hocvien-description {color:#999;}
+.hocvien-description-1 {color:#555;padding: 0 16px; font-size: 12px;}
+
+
+.form-control {box-shadow: none;}
+.giaovien-img img {margin-top:24px;}
+.giaovien-description {color:#e5e5e5;}
+.giaovien-description-1 {color:#fff;font-size: 12px;}
+
+
+
+.tin-container {height:320px; background: #fff;
+border: 1px solid #e5e5e5;overflow: hidden}
+
+.tin-img {width:50%;float:left;}
+.tin-img img {width:100%}
+.tin-content {width:50%;float:left;padding:16px;}
+.tin-title {font-size: 16px; font-weight: 600; }
+.tin-title-1 {font-size: 14px; font-weight: 600; }
+.tin-thoigian {color:#999;}
+.tin-mota {color:#555}
+.tin-mota-1 {color:#555;font-size: 12px;}
+
+.tin-container-1 {background: #fff;border:1px solid #e5e5e5;height: 100px;overflow: hidden;border-left:3px solid #f67a20;}
+.tin-left {width:20%;background: #e5e5e5;float:left;height:100px}
+.tin-right {float:left;background: #fff;width:76%;padding:2% 2%;position: }
+
+.split-line {width:60px; heigth:1px; border-bottom: 1px solid #f67a20;margin: 0 auto;display: block;}
+
+.font12 {font-size: 12px}
+.footer {color:#fff}
+.footer a {color:#fff;text-decoration: none;}
+.footer-title {font-size:14px; text-transform: uppercase;font-weight: 600;}
+.footer a:hover {color:#fcd6bb}
+.footer-text {font-size: 12px; color:#999;height:32px;line-height: 32px;}
+.dangkybanner{
+    
+     background: #fff url('../img/dangky-bg.png') no-repeat center center !important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 174px !important;
+}
+
+.giaovien-container {padding:16px;}
+
+
+.lichkhaigiang-float {position: fixed; top:30%;left:1%;z-index: 999;}
+@media (max-width:540px) {
+    .page-title {
+        font-size: 12px;
+        text-align: center;
+    }
+    .social-list {
+        float: none !important;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+}
